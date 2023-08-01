@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Sign out"
+            android:icon="@drawable/ic_logout"/>
+
+        <item
+            android:id="@+id/nav_search"
+            android:title="Search"
+            android:icon="@drawable/baseline_search"/>
+
+        <item
+            android:id="@+id/nav_cart"
+            android:title="Cart"
+            android:icon="@drawable/cart"/>
+    <item
+        android:id="@+id/nav_orderStatus"
+        android:title="Order Status"
+        android:icon="@drawable/cart"/>
+    <item
+        android:id="@+id/nav_add"
+        android:title="Add"
+        android:icon="@drawable/baseline_add_black_18dp"/>
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="About"
+                android:icon="@drawable/ic_about"/>
+            <item
+                android:id="@+id/nav_feedback"
+                android:title="Feedback"
+                android:icon="@drawable/ic_feedback"/>
+        </menu>
+
+    </item>
+</menu>
